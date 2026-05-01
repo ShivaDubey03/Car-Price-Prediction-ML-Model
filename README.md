@@ -1,13 +1,13 @@
-🚗 Car Price Prediction Web App
+🚗 Car Price Prediction ML Web App
 
-A Machine Learning-based web application that predicts the selling price of used cars based on various features like brand, year, fuel type, transmission, and more.
+A Machine Learning-based web application that predicts the selling price of used cars based on user inputs such as brand, year, fuel type, transmission, and more.
 
 Built using Python, Scikit-learn, and Streamlit.
 
 📌 Features
-Predicts car price in real-time
-Interactive and user-friendly UI using Streamlit
-Handles multiple input features:
+🔮 Real-time car price prediction
+🎯 Simple and interactive UI using Streamlit
+📊 Supports multiple input features:
 Car brand
 Manufacturing year
 Kilometers driven
@@ -24,4 +24,23 @@ Python
 Pandas & NumPy
 Scikit-learn
 Streamlit
-Pickle (Model Serialization)
+Pickle
+📂 Project Structure
+├── app.py               # Streamlit web application
+├── model.pkl           # Trained machine learning model
+├── Cardetails.csv      # Dataset
+├── requirements.txt    # Dependencies
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/ShivaDubey03/Car-Price-Prediction-ML-Model.git
+cd Car-Price-Prediction-ML-Model
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the application
+streamlit run app.py
+📊 How It Works
+User selects car details from the UI
+Input data is preprocessed and encoded
+The trained ML model predicts the price
+Predicted price is displayed instantly
