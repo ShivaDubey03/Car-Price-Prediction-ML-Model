@@ -43,3 +43,17 @@ Built using **Python, Scikit-learn, and Streamlit**.
 ├── Cardetails.csv       # Dataset
 ├── requirements.txt     # Dependencies
 └── README.md
+
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the repository
+git clone https://github.com/ShivaDubey03/Car-Price-Prediction-ML-Model.git
+cd Car-Price-Prediction-ML-Model
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the application
+streamlit run app.py
+4️⃣ Open in browser
